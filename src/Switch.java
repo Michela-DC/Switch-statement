@@ -6,7 +6,7 @@ public class Switch {
 //        Print the name of the number (e.g. 5 --> five)
 //        If the user input a number lower than 1 or greater than 10, print Cannot give you the name
 
-        for(;;) {
+        while(true) { //Altro modo per farlo è con for(;;) ma con while(true) è più leggibile
             System.out.println("Please insert a number: ");
 
             Scanner input = new Scanner(System.in);
